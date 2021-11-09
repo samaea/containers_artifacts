@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: poi-service
   labels:
-    run: poi-service
+    run: poi
 spec:
   ports:
   - port: 80
     protocol: TCP
   selector:
-    run: poi-service
+    run: poi

@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: poi
-        image: poi:1.0
+        image: registryppb3911.azurecr.io/tripinsights/poi:1.0
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
